@@ -1,11 +1,11 @@
-## Configuración inicial
-Pasos
+# Creación y configuración del Jupyter Book de PF-3311 Ciencia de datos geoespaciales
+
 1. Creación de un ambiente Conda.
 2. Creación del Jupyter Book principal: pf3311-cienciadatosgeoespaciales.github.io
 3. Creación de un Jupyter Book para cada curso, por ejemplo: 2021iii, accesible en https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/
 4. Publicación de modificaciones.
 
-### 1. Creación de un ambiente Conda
+## 1. Creación de un ambiente Conda
 
 ```shell
 # Actualización de Conda
@@ -39,7 +39,7 @@ $ conda install jupyter-book ghp-import
 $ conda deactivate
 ```
 
-### 2. Creación del Jupyter Book principal y publicación inicial del sitio web en GitHub Pages
+## 2. Creación del Jupyter Book principal y publicación inicial del sitio web en GitHub Pages
 
 ```shell
 $ conda activate pf3311
@@ -70,7 +70,7 @@ $ ghp-import -n -p -f _build/html
 $ conda deactivate
 ```
 
-### 3. Creación de un Jupyter Book para cada curso y publicación inicial del sitio web en GitHub Pages
+## 3. Creación de un Jupyter Book para cada curso y publicación inicial del sitio web en GitHub Pages
 
 ```shell
 $ conda activate pf3311
