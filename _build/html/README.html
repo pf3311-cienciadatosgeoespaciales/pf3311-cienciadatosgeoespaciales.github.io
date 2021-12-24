@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Configuración inicial &#8212; PF-3311 Ciencia de datos geoespaciales</title>
+    <title>Creación y configuración del Jupyter Book de PF-3311 Ciencia de datos geoespaciales &#8212; PF-3311 Ciencia de datos geoespaciales</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -94,19 +94,6 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="markdown.html">
-   Markdown Files
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="notebooks.html">
-   Content with notebooks
-  </a>
- </li>
-</ul>
-
     </div>
 </nav> <!-- To handle the deprecated key -->
 
@@ -192,29 +179,22 @@
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Configuración inicial
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#creacion-de-un-ambiente-conda">
+   1. Creación de un ambiente Conda
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#creacion-de-un-ambiente-conda">
-     1. Creación de un ambiente Conda
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#creacion-del-jupyter-book-principal-y-publicacion-inicial-del-sitio-web-en-github-pages">
-     2. Creación del Jupyter Book principal y publicación inicial del sitio web en GitHub Pages
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#creacion-de-un-jupyter-book-para-cada-curso-y-publicacion-inicial-del-sitio-web-en-github-pages">
-     3. Creación de un Jupyter Book para cada curso y publicación inicial del sitio web en GitHub Pages
-    </a>
-   </li>
-  </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#creacion-del-jupyter-book-principal-y-publicacion-inicial-del-sitio-web-en-github-pages">
+   2. Creación del Jupyter Book principal y publicación inicial del sitio web en GitHub Pages
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#creacion-de-un-jupyter-book-para-cada-curso-y-publicacion-inicial-del-sitio-web-en-github-pages">
+   3. Creación de un Jupyter Book para cada curso y publicación inicial del sitio web en GitHub Pages
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#publicacion-de-modificaciones">
    4. Publicación de modificaciones
   </a>
@@ -230,9 +210,8 @@
         
               <div>
                 
-  <div class="section" id="configuracion-inicial">
-<h1>Configuración inicial<a class="headerlink" href="#configuracion-inicial" title="Permalink to this headline">¶</a></h1>
-<p>Pasos</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="creacion-y-configuracion-del-jupyter-book-de-pf-3311-ciencia-de-datos-geoespaciales">
+<h1>Creación y configuración del Jupyter Book de PF-3311 Ciencia de datos geoespaciales<a class="headerlink" href="#creacion-y-configuracion-del-jupyter-book-de-pf-3311-ciencia-de-datos-geoespaciales" title="Permalink to this headline">¶</a></h1>
 <ol class="simple">
 <li><p>Creación de un ambiente Conda.</p></li>
 <li><p>Creación del Jupyter Book principal: <a class="reference external" href="http://pf3311-cienciadatosgeoespaciales.github.io">pf3311-cienciadatosgeoespaciales.github.io</a></p></li>
@@ -333,9 +312,8 @@ $ ghp-import -n -p -f _build/html
 </pre></div>
 </div>
 </div>
-</div>
 <div class="section" id="publicacion-de-modificaciones">
-<h1>4. Publicación de modificaciones<a class="headerlink" href="#publicacion-de-modificaciones" title="Permalink to this headline">¶</a></h1>
+<h2>4. Publicación de modificaciones<a class="headerlink" href="#publicacion-de-modificaciones" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-shell notranslate"><div class="highlight"><pre><span></span><span class="c1"># Generación de archivos HTML (debe hacerse desde el directorio padre del Jupyter Book)</span>
 $ jupyter-book build pf3311-cienciadatosgeoespaciales.github.io
 <span class="c1"># $ jupyter-book build 2021iii</span>
@@ -352,6 +330,7 @@ $ git push
 <span class="c1"># Aplicación de cambios en el branch gh-pages</span>
 $ ghp-import -n -p -f _build/html
 </pre></div>
+</div>
 </div>
 </div>
 
