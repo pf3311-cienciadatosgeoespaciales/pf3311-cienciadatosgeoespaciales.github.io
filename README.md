@@ -93,7 +93,7 @@ $ git remote add origin https://github.com/pf3311-cienciadatosgeoespaciales/2021
 $ git push -u origin main
 
 # Creación del branch gh-pages (para manejar los archivos HTML publicados)
-ghp-import -n -p -f _build/html
+$ ghp-import -n -p -f _build/html
 
 # En este punto, se configura el repositorio para buscar los archivos de GH Pages en la rama gh-pages
 # El sitio debe estar disponible en https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/
