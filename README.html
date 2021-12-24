@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to your Jupyter Book &#8212; PF-3311 Ciencia de datos geoespaciales</title>
+    <title>Configuración inicial &#8212; PF-3311 Ciencia de datos geoespaciales</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,7 +51,6 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Markdown Files" href="markdown.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -89,8 +88,8 @@
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
- <li class="toctree-l1 current">
-  <a class="reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
    Welcome to your Jupyter Book
   </a>
  </li>
@@ -147,7 +146,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/intro.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/README.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -167,7 +166,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://pf3311-cienciadatosgeoespaciales.github.io//issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here."><button
+            href="https://pf3311-cienciadatosgeoespaciales.github.io//issues/new?title=Issue%20on%20page%20%2FREADME.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -188,6 +187,41 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Configuración inicial
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creacion-de-un-ambiente-conda">
+     1. Creación de un ambiente Conda
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creacion-del-jupyter-book-principal-y-publicacion-inicial-del-sitio-web-en-github-pages">
+     2. Creación del Jupyter Book principal y publicación inicial del sitio web en GitHub Pages
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creacion-de-un-jupyter-book-para-cada-curso-y-publicacion-inicial-del-sitio-web-en-github-pages">
+     3. Creación de un Jupyter Book para cada curso y publicación inicial del sitio web en GitHub Pages
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#publicacion-de-modificaciones">
+   4. Publicación de modificaciones
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -196,20 +230,128 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="welcome-to-your-jupyter-book">
-<h1>Welcome to your Jupyter Book<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Permalink to this headline">¶</a></h1>
-<p>This is a small sample book to give you a feel for how book content is
-structured.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is a note!</p>
-</div>
-<p>And here is a code block:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">e</span> <span class="o">=</span> <span class="n">mc</span><span class="o">^</span><span class="mi">2</span>
+  <div class="section" id="configuracion-inicial">
+<h1>Configuración inicial<a class="headerlink" href="#configuracion-inicial" title="Permalink to this headline">¶</a></h1>
+<p>Pasos</p>
+<ol class="simple">
+<li><p>Creación de un ambiente Conda.</p></li>
+<li><p>Creación del Jupyter Book principal: <a class="reference external" href="http://pf3311-cienciadatosgeoespaciales.github.io">pf3311-cienciadatosgeoespaciales.github.io</a></p></li>
+<li><p>Creación de un Jupyter Book para cada curso, por ejemplo: 2021iii, accesible en <a class="reference external" href="https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/">https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/</a></p></li>
+<li><p>Publicación de modificaciones.</p></li>
+</ol>
+<div class="section" id="creacion-de-un-ambiente-conda">
+<h2>1. Creación de un ambiente Conda<a class="headerlink" href="#creacion-de-un-ambiente-conda" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span><span class="c1"># Actualización de Conda</span>
+$ conda update conda
+
+<span class="c1"># Borrado del ambiente (si es que existe)</span>
+$ <span class="c1"># conda remove -n pf3311 --all</span>
+
+<span class="c1"># Creación del ambiente</span>
+$ conda create -n pf3311
+
+<span class="c1"># Activación del ambiente</span>
+$ conda activate pf3311
+
+<span class="c1"># Configuración del ambiente</span>
+$ conda config --env --add channels conda-forge
+$ conda config --env --set channel_priority strict
+
+<span class="c1"># Instalación de módulos requeridos (Python 3.9 es la versión más avanzada que funcionó)</span>
+$ conda install git <span class="nv">python</span><span class="o">=</span><span class="m">3</span> jupyter numpy pandas matplotlib plotly dash gdal fiona shapely geopandas rasterio folium
+
+<span class="c1"># Instalación de módulos opcionales</span>
+<span class="c1"># Si se desea usar QGIS en conda:</span>
+$ conda install qgis
+<span class="c1"># Si se desea desarrollar con streamlit:</span>
+$ conda install streamlit
+<span class="c1"># Si se desea desarrollar con jupyter-book:</span>
+$ conda install jupyter-book ghp-import
+
+<span class="c1"># Desactivación del ambiente</span>
+$ conda deactivate
 </pre></div>
 </div>
-<p>Check out the content pages bundled with this sample book to see more.</p>
-<div class="toctree-wrapper compound">
+</div>
+<div class="section" id="creacion-del-jupyter-book-principal-y-publicacion-inicial-del-sitio-web-en-github-pages">
+<h2>2. Creación del Jupyter Book principal y publicación inicial del sitio web en GitHub Pages<a class="headerlink" href="#creacion-del-jupyter-book-principal-y-publicacion-inicial-del-sitio-web-en-github-pages" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>$ conda activate pf3311
+
+<span class="c1"># Creación del Jupyter Book con una plantilla inicial</span>
+$ jupyter-book create pf3311-cienciadatosgeoespaciales.github.io
+
+<span class="c1"># Generación de archivos HTML (en el subdirectorio _build/html)</span>
+$ jupyter-book build pf3311-cienciadatosgeoespaciales.github.io
+
+<span class="c1"># En este punto, se crea en GitHub el repositorio pf3311-cienciadatosgeoespaciales.github.io</span>
+
+<span class="c1"># Configuración del repositorio local y su branch main (para manejar los archivos fuente)</span>
+$ <span class="nb">cd</span> pf3311-cienciadatosgeoespaciales.github.io
+$ git init
+$ git add .
+$ git commit -m <span class="s2">&quot;Commit inicial&quot;</span>
+$ git branch -M main
+$ git remote add origin https://github.com/pf3311-cienciadatosgeoespaciales/pf3311-cienciadatosgeoespaciales.github.io.git
+$ git push -u origin main
+
+<span class="c1"># Creación del branch gh-pages (para manejar los archivos HTML publicados)</span>
+$ ghp-import -n -p -f _build/html
+
+<span class="c1"># En este punto, se configura el repositorio para buscar los archivos de GH Pages en la rama gh-pages</span>
+<span class="c1"># El sitio debe estar disponible en https://pf3311-cienciadatosgeoespaciales.github.io/</span>
+
+$ conda deactivate
+</pre></div>
+</div>
+</div>
+<div class="section" id="creacion-de-un-jupyter-book-para-cada-curso-y-publicacion-inicial-del-sitio-web-en-github-pages">
+<h2>3. Creación de un Jupyter Book para cada curso y publicación inicial del sitio web en GitHub Pages<a class="headerlink" href="#creacion-de-un-jupyter-book-para-cada-curso-y-publicacion-inicial-del-sitio-web-en-github-pages" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>$ conda activate pf3311
+
+<span class="c1"># Creación del Jupyter Book con una plantilla inicial</span>
+$ jupyter-book create 2021iii
+
+<span class="c1"># Generación de archivos HTML (en el subdirectorio _build/html)</span>
+$ jupyter-book build 2021iii
+
+<span class="c1"># En este punto, se crea en GitHub el repositorio 2021iii</span>
+
+<span class="c1"># Configuración del repositorio local y su branch main (para manejar los archivos fuente)</span>
+$ <span class="nb">cd</span> 2021iii
+$ git init
+$ git add .
+$ git commit -m <span class="s2">&quot;Commit inicial&quot;</span>
+$ git branch -M main
+$ git remote add origin https://github.com/pf3311-cienciadatosgeoespaciales/2021iii.git
+$ git push -u origin main
+
+<span class="c1"># Creación del branch gh-pages (para manejar los archivos HTML publicados)</span>
+$ ghp-import -n -p -f _build/html
+
+<span class="c1"># En este punto, se configura el repositorio para buscar los archivos de GH Pages en la rama gh-pages</span>
+<span class="c1"># El sitio debe estar disponible en https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="publicacion-de-modificaciones">
+<h1>4. Publicación de modificaciones<a class="headerlink" href="#publicacion-de-modificaciones" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span><span class="c1"># Generación de archivos HTML (debe hacerse desde el directorio padre del Jupyter Book)</span>
+$ jupyter-book build pf3311-cienciadatosgeoespaciales.github.io
+<span class="c1"># $ jupyter-book build 2021iii</span>
+
+$ <span class="nb">cd</span> pf3311-cienciadatosgeoespaciales.github.io
+<span class="c1"># $ cd 2021iii</span>
+
+<span class="c1"># Aplicación de cambios en el branch main</span>
+$ git status
+$ git add .
+$ git commit -m <span class="s2">&quot;###Comentario###&quot;</span>
+$ git push
+
+<span class="c1"># Aplicación de cambios en el branch gh-pages</span>
+$ ghp-import -n -p -f _build/html
+</pre></div>
 </div>
 </div>
 
@@ -238,13 +380,6 @@ structured.</p>
         
             <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="markdown.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Markdown Files</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
 </div>
         
         </div>
