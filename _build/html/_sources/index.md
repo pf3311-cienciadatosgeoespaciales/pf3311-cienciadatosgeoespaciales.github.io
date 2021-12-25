@@ -4,6 +4,6 @@ Este curso trata sobre el manejo, visualización y análisis de datos geoespacia
 
 El curso forma parte del [Programa de Posgrado en Computación e Informática](http://www.pci.ucr.ac.cr/) de la [Universidad de Costa Rica](https://www.ucr.ac.cr/). Ha sido impartido en los siguientes ciclos lectivos:
 
-- [3-2021](https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/)
+- [2021-III](https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Los contenidos de este curso, a menos que se especifique de otra forma, se comparten mediante una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.
