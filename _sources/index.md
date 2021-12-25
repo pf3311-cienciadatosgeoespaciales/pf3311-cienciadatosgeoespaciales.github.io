@@ -8,7 +8,7 @@ El curso forma parte del [Programa de Posgrado en Computación e Informática](h
 
 Este curso ha sido impartido en los siguientes ciclos lectivos:
 
-- [2021-III](https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/)
+- [2021-III](https://pf3311-cienciadatosgeoespaciales.github.io/2021-iii/)
 
 #### Contacto
 
