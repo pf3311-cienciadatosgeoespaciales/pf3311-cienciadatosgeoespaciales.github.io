@@ -104,10 +104,8 @@ $ ghp-import -n -p -f _build/html
 ```shell
 # Generación de archivos HTML (debe hacerse desde el directorio padre del Jupyter Book)
 $ jupyter-book build pf3311-cienciadatosgeoespaciales.github.io
-# $ jupyter-book build 2021iii
 
 $ cd pf3311-cienciadatosgeoespaciales.github.io
-# $ cd 2021iii
 
 # Aplicación de cambios en el branch main
 $ git status
