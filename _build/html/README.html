@@ -215,7 +215,7 @@
 <ol class="simple">
 <li><p>Creación de un ambiente Conda.</p></li>
 <li><p>Creación del Jupyter Book principal: <a class="reference external" href="http://pf3311-cienciadatosgeoespaciales.github.io">pf3311-cienciadatosgeoespaciales.github.io</a></p></li>
-<li><p>Creación de un Jupyter Book para cada curso, por ejemplo: 2021iii, accesible en <a class="reference external" href="https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/">https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/</a></p></li>
+<li><p>Creación de un Jupyter Book para cada curso, por ejemplo: 2021-iii, accesible en <a class="reference external" href="https://pf3311-cienciadatosgeoespaciales.github.io/2021-iii/">https://pf3311-cienciadatosgeoespaciales.github.io/2021-iii/</a></p></li>
 <li><p>Publicación de modificaciones.</p></li>
 </ol>
 <div class="section" id="creacion-de-un-ambiente-conda">
@@ -288,27 +288,27 @@ $ conda deactivate
 <div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>$ conda activate pf3311
 
 <span class="c1"># Creación del Jupyter Book con una plantilla inicial</span>
-$ jupyter-book create 2021iii
+$ jupyter-book create <span class="m">2021</span>-iii
 
 <span class="c1"># Generación de archivos HTML (en el subdirectorio _build/html)</span>
-$ jupyter-book build 2021iii
+$ jupyter-book build <span class="m">2021</span>-iii
 
-<span class="c1"># En este punto, se crea en GitHub el repositorio 2021iii</span>
+<span class="c1"># En este punto, se crea en GitHub el repositorio 2021-iii</span>
 
 <span class="c1"># Configuración del repositorio local y su branch main (para manejar los archivos fuente)</span>
-$ <span class="nb">cd</span> 2021iii
+$ <span class="nb">cd</span> <span class="m">2021</span>-iii
 $ git init
 $ git add .
 $ git commit -m <span class="s2">&quot;Commit inicial&quot;</span>
 $ git branch -M main
-$ git remote add origin https://github.com/pf3311-cienciadatosgeoespaciales/2021iii.git
+$ git remote add origin https://github.com/pf3311-cienciadatosgeoespaciales/2021-iii.git
 $ git push -u origin main
 
 <span class="c1"># Creación del branch gh-pages (para manejar los archivos HTML publicados)</span>
 $ ghp-import -n -p -f _build/html
 
 <span class="c1"># En este punto, se configura el repositorio para buscar los archivos de GH Pages en la rama gh-pages</span>
-<span class="c1"># El sitio debe estar disponible en https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/</span>
+<span class="c1"># El sitio debe estar disponible en https://pf3311-cienciadatosgeoespaciales.github.io/2021-iii/</span>
 </pre></div>
 </div>
 </div>

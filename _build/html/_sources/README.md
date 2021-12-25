@@ -2,7 +2,7 @@
 
 1. Creación de un ambiente Conda.
 2. Creación del Jupyter Book principal: pf3311-cienciadatosgeoespaciales.github.io
-3. Creación de un Jupyter Book para cada curso, por ejemplo: 2021iii, accesible en https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/
+3. Creación de un Jupyter Book para cada curso, por ejemplo: 2021-iii, accesible en https://pf3311-cienciadatosgeoespaciales.github.io/2021-iii/
 4. Publicación de modificaciones.
 
 ### 1. Creación de un ambiente Conda
@@ -76,27 +76,27 @@ $ conda deactivate
 $ conda activate pf3311
 
 # Creación del Jupyter Book con una plantilla inicial
-$ jupyter-book create 2021iii
+$ jupyter-book create 2021-iii
 
 # Generación de archivos HTML (en el subdirectorio _build/html)
-$ jupyter-book build 2021iii
+$ jupyter-book build 2021-iii
 
-# En este punto, se crea en GitHub el repositorio 2021iii
+# En este punto, se crea en GitHub el repositorio 2021-iii
 
 # Configuración del repositorio local y su branch main (para manejar los archivos fuente)
-$ cd 2021iii
+$ cd 2021-iii
 $ git init
 $ git add .
 $ git commit -m "Commit inicial"
 $ git branch -M main
-$ git remote add origin https://github.com/pf3311-cienciadatosgeoespaciales/2021iii.git
+$ git remote add origin https://github.com/pf3311-cienciadatosgeoespaciales/2021-iii.git
 $ git push -u origin main
 
 # Creación del branch gh-pages (para manejar los archivos HTML publicados)
 $ ghp-import -n -p -f _build/html
 
 # En este punto, se configura el repositorio para buscar los archivos de GH Pages en la rama gh-pages
-# El sitio debe estar disponible en https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/
+# El sitio debe estar disponible en https://pf3311-cienciadatosgeoespaciales.github.io/2021-iii/
 ```
 
 ### 4. Publicación de modificaciones
