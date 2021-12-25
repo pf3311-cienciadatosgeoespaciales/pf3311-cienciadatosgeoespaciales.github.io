@@ -6,7 +6,7 @@ El curso forma parte del [Programa de Posgrado en Computación e Informática](h
 
 - [2021-III](https://pf3311-cienciadatosgeoespaciales.github.io/2021iii/)
 
-### Contacto
+#### Contacto
 
 > Manuel Vargas - `manuel.vargas_d@ucr.ac.cr`  
 Profesor  
