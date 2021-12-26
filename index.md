@@ -14,7 +14,7 @@ Este curso ha sido impartido en los siguientes ciclos lectivos:
 
 Si tiene alguna pregunta o comentario sobre este curso, por favor contacte a:
 
-> Manuel Vargas - `manuel.vargas_d@ucr.ac.cr`  
+> Manuel Vargas - manuel.vargas_d@ucr.ac.cr  
 Profesor  
 Universidad de Costa Rica,  
 Ciudad Universitaria Rodrigo Facio,  
